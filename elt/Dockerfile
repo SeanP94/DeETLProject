@@ -5,7 +5,6 @@ RUN apt-get update && apt-get install -y postgresql-client
 
 # Copy the ELT script 
 COPY elt_script.py .
-COPY data_dump.sql .
 
 # Set the default command to run the ELT script
 CMD ["python", "elt_script.py"]
