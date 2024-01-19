@@ -6,3 +6,6 @@ Project is based off free code camps video on creating an ELT pipeline. Some fil
 
 https://github.com/justinbchau/custom-elt-project/tree/main
 - init.sql
+
+
+create a venv called dbt-venv
